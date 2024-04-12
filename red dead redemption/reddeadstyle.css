@@ -1,0 +1,134 @@
+html {
+  font-family: Helvetica, Arial,  sans-serif;
+}
+
+header {
+    padding: 100px;
+    height: 490px;
+    
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(212,25,54); /*cor do jogo*/
+    font-size: 90px;
+    padding-top: 60px;
+    
+}
+#background-video {
+    width: 100vw;
+    filter: brightness(30%);
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+  }
+  body {
+    background-color: rgb(30, 30, 30);
+  }
+
+  header p {
+   
+    display: inline-block;
+    color: rgb(212,25,54);
+    
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .separador {
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  strong {
+    color: rgb(192, 7, 7); /*cor mais clara que o normal*/
+  }
+
+  .content {
+    border-top: solid ;
+    text-indent: 30px;
+    padding-top: 70px;
+    color: rgb(212,25,54);
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .score {
+    
+    color: rgb(0, 22, 0);
+    padding: 12px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: solid rgb(1, 92, 1);
+    background-color:  rgb(1, 92, 1);
+  }
+
+  #tituloscore {
+    color: rgb(50, 84, 137);
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  #maingames {
+
+    font-size: 20px;
+  }
+
+
+  #trailer {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+
+
+  footer {
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 130px; /* Altura do footer */
+    background: rgba(0, 0, 0, 0.51);
+    color:white;
+}
+
+footer p {
+    color: rgb(255, 177, 76);
+    text-align: center;
+}
+
+footer a {
+
+    padding-top: 20px;
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center; 
+    margin-top: 5px;
+    color: rgb(255, 177, 76);
+    width: fit-content;
+}
+
+footer a:hover {
+    color: rgb(165, 115, 49);
+}
+
+#barra {
+  text-align: center;
+}
